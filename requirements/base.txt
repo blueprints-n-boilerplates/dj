@@ -1,0 +1,17 @@
+# python
+
+autoflake8==0.3.0  # https://github.com/fsouza/autoflake8
+isort==5.10.1  # https://github.com/pycqa/isort
+black==21.12b0  # https://github.com/psf/black
+pre_commit==2.17.0  # https://github.com/pre-commit/pre-commit
+psycopg2==2.9.3  # https://github.com/psycopg/psycopg2
+coverage==6.3  # https://github.com/nedbat/coveragepy
+
+
+# django
+
+Django==3.2.10  # https://github.com/django/django
+djangorestframework==3.13.1  # https://github.com/encode/django-rest-framework/tree/master
+django-environ==0.4.5  # https://github.com/joke2k/django-environ
+django-allauth==0.47.0  # https://github.com/pennersr/django-allauth
+django-cors-headers==3.11.0  # https://github.com/adamchainz/django-cors-headers
