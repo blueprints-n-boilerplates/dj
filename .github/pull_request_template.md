@@ -9,6 +9,20 @@
 - [ ] The tester has approved the updates and consent the merging of this branch
 
 
+## Did you test this update on all browsers?
+
+- [ ] Chrome
+- [ ] Firefox
+- [ ] Edge
+- [ ] Brave
+- [ ] Safari
+
+
+## Describe Update Performance on Different Connection Speeds
+
+>
+
+
 ## Updates
 
 > List your updates in this section
