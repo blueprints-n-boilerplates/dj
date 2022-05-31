@@ -7,6 +7,20 @@
 - [ ] I added full-screen screenshots
 - [ ] I am pushing a squashed commit
 - [ ] The tester has approved the updates and consent the merging of this branch
+- [ ] No merge conflicts
+
+## Did you test this update on all browsers?
+
+- [ ] Chrome
+- [ ] Firefox
+- [ ] Edge
+- [ ] Brave
+- [ ] Safari
+
+
+## Describe Update Performance on Different Connection Speeds
+
+>
 
 
 ## Updates
