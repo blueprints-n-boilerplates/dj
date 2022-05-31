@@ -103,7 +103,7 @@ python manage.py createsuperuser
 Print sample config yaml file.
 
 ```shell
-pre-commit sample-config > .pre-commit-config.yaml
+pre-commit sample-config > .pre-commit-config.yml
 ```
 
 Install pre-commit
