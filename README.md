@@ -125,6 +125,18 @@ pre-commit uninstall
 python manage.py test --pattern="tests_*.py"
 ```
 
+```shell
+python manage.py test apps/services/"
+```
+
+```shell
+python -m unittest test_file
+```
+
+```shell
+python -m unittest test_sendgrid
+```
+
 ### 1. Coverage
 
 > Code coverage testing for Python.
