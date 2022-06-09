@@ -24,6 +24,7 @@ APPS_DIR = ROOT_DIR / "apps"
 ENVIRONMENT_DIR = "environments"
 env = environ.Env()
 env.read_env(env("ENV_FILE", default=str(ROOT_DIR / ENVIRONMENT_DIR / "development.env")))
+print(env("ENV_FILE"))
 
 # General settings
 
@@ -60,7 +61,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "apps.users",
     "apps.userprofile",
-    # "apps.services",
+    "apps.services",
 ]
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 MIDDLEWARE = [
@@ -157,3 +158,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # # for non-chat participants (sms, mms, whatsapp)
 # TWILIO_MSGG_SERVICE_SID = env("TWILIO_MSGG_SERVICE_SID", default="")
 # TWILIO_CONVERSATIONS_SERVICE_SID = env("TWILIO_CONVERSATIONS_SERVICE_SID", default="")
+
+
+# testing
+
+TEST_TO_EMAIL = env.str("TEST_TO_EMAIL")
+TEST_FROM_EMAIL = env.str("TEST_FROM_EMAIL")
