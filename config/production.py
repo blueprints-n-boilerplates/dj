@@ -6,6 +6,12 @@ from .settings import *
 SG_API_KEY = env("SG_API_KEY")
 
 
+# TeleSign
+
+TELESIGN_API_KEY = env("TELESIGN_API_KEY")
+TELESIGN_CUSTOMER_ID = env("TELESIGN_CUSTOMER_ID")
+
+
 # Twilio
 
 # TWILIO_ACCOUNT_SID = env("TWILIO_ACCOUNT_SID", default="")

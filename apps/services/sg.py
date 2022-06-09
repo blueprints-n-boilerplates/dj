@@ -12,10 +12,10 @@ class SendgridHelper:
     DEFAULT_CONTENT_TYPE = "text/plain"
 
     def __init__(self, api_key=settings.SG_API_KEY):
-        self.sendgrid_client = self.__build_client(api_key)
+        self.sendgrid_client = self.build_client(api_key)
         super(SendgridHelper, self).__init__()
 
-    def __build_client(self, api_key):
+    def build_client(self, api_key):
         return sendgrid.SendGridAPIClient(api_key=api_key)
 
     def mail_builder(self, from_email: str, to_email: str, subject: str, msg: str,

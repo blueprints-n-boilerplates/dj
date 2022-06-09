@@ -24,7 +24,6 @@ APPS_DIR = ROOT_DIR / "apps"
 ENVIRONMENT_DIR = "environments"
 env = environ.Env()
 env.read_env(env("ENV_FILE", default=str(ROOT_DIR / ENVIRONMENT_DIR / "development.env")))
-print(env("ENV_FILE"))
 
 # General settings
 
@@ -162,5 +161,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # testing
 
-TEST_TO_EMAIL = env.str("TEST_TO_EMAIL")
-TEST_FROM_EMAIL = env.str("TEST_FROM_EMAIL")
+TEST_TO_EMAIL = env.str("TEST_TO_EMAIL", "")
+TEST_FROM_EMAIL = env.str("TEST_FROM_EMAIL", "")
+TEST_PHONE_NUMBER = env.str("TEST_PHONE_NUMBER", "")

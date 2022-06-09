@@ -5,6 +5,8 @@
 
 ## Technologies
 
+> You can choose to remove some technologies, whichever fits your project needs.
+
 
 1. Django 3.10.2 and Django REST
 
@@ -41,6 +43,10 @@
 9. Black
 
 - Uncompromising Python code formatter.
+
+10. TeleSign
+
+- For sending SMS, 2FA SMS.
 
 
 
