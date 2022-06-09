@@ -8,6 +8,7 @@ psycopg2==2.9.3  # https://github.com/psycopg/psycopg2
 coverage==6.3  # https://github.com/nedbat/coveragepy
 swagger-spec-validator==2.7.4  # https://github.com/Yelp/swagger_spec_validator  # pip install -U drf-yasg[validation]
 sendgrid==6.9.7  # https://github.com/sendgrid/sendgrid-python
+twilio==7.9.2  #
 
 # django
 
