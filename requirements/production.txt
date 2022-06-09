@@ -1,1 +1,4 @@
--r 'base.txt'
+-r "base.txt"
+
+sendgrid==6.9.7  # https://github.com/sendgrid/sendgrid-python
+telesign==2.2.2  # https://telesign.readthedocs.io/en/latest/installation.html
