@@ -330,6 +330,7 @@ dj/media/
 
 .ipython/
 development.env
+production.env
 .envs/*
 !.envs/.local/
 
